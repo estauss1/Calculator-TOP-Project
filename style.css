@@ -1,5 +1,61 @@
+#page {
+    display: flex;
+    justify-content: center;
+}
+
+#calc {
+   border: solid; 
+}
+
+#all-butts{
+    display:flex;
+}
+
 #screen {
     border: 1px solid black;
-    width: 450px;
-    height: 20px;
+    width: 278px;
+    height: 40px;
+    font-size: 24pt;
+    text-align: right;
+    background-color: grey;
+    color: white;
+}
+
+#numpad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 210px;
+
+}
+
+#operations {
+    display:flex;
+    flex-direction: column;
+    width: 70px;
+}
+
+.number {
+    background-color: cyan;
+}
+
+#clear {
+    background-color: rgb(204, 255, 103);
+}
+
+#equal {
+    background-color: plum;
+}
+
+.operator {
+    background-color: pink;
+}
+
+.operator,
+.number,
+#clear,
+#equal {
+    width: 70px;
+    height: 70px;
+    font-size: 24pt;
+    border-radius: 0;
 }
